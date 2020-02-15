@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res, next) => {
-    res.send('Hello');
+    res.send('Hello World');
     res.end();
 });
 
